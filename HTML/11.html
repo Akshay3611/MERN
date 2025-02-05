@@ -6,13 +6,14 @@
     <title>Form</title>
   </head>
   <body>
-    <form>
+    <form action="10.html">
       <lable for="fname">First Name :</lable>
-      <input type="text" id="fname" />
+      <input type="text" id="fname" name="fname" />
       <br />
       <br />
       <lable for="Lastname">Last Name :</lable>
-      <input type="text" id="Lastname" />
+      <input type="text" id="Lastname" name="Lastname" />
+      <!-- Choose Tech stack -->
       <p>Choose your Tech Stack</p>
       <input type="radio" name="Tech" id="MERN" />
       <label for="MERN">MERN</label>
@@ -20,6 +21,19 @@
       <label for="MEAN">MEAN</label>
       <input type="radio" name="Tech" id="Springboot" />
       <label for="Springboot">Springboot</label>
+      <br />
+      <br />
+      <!-- Choose FAv Movie -->
+      <p>Choose Fav Movie</p>
+      <input type="checkbox" name="Interstellar" />
+      <label>Interstellar</label>
+      <br />
+      <input type="checkbox" name="Tennet" />
+      <label>Tennet</label>
+      <br />
+      <input type="checkbox" name="Inception" />
+      <label>Inception</label><br /><br />
+      <input type="submit" / value="submit">
     </form>
   </body>
 </html>
