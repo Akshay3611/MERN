@@ -1,3 +1,12 @@
-* {
+h1 {
   color: orange;
+}
+p {
+  color: skyblue;
+}
+.heading {
+  color: blueviolet;
+}
+#heading {
+  color: brown;
 }
