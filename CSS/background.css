@@ -2,7 +2,7 @@ body {
   background-color: sandybrown;
   background-image: url(../Images/wallpaperflare.com_wallpaper.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
 }
 h1 {
   background-color: aqua;
