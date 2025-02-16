@@ -23,12 +23,19 @@ console.log(--a);
 
 // Comparison Operators
 
-a = 5;
-b = 6;
+// a = 5;
+// b = 6;
 
+// console.log(a == b);
+// console.log(a != b);
+// console.log(a < b);
+// console.log(a > b);
+// console.log(a <= b);
+// console.log(a >= b);
+
+// == vs ===
+
+a = "6";
+b = 6;
 console.log(a == b);
-console.log(a != b);
-console.log(a < b);
-console.log(a > b);
-console.log(a <= b);
-console.log(a >= b);
+console.log(a === b);
