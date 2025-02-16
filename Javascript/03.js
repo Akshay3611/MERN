@@ -12,3 +12,11 @@ console.log(2 / 5);
 console.log(2 % 5);
 // Power
 console.log(2 ** 5);
+
+// increment and decrement in JS
+
+let a = 1;
+
+console.log(++a);
+
+console.log(--a);
