@@ -39,3 +39,8 @@ a = "6";
 b = 6;
 console.log(a == b);
 console.log(a === b);
+
+// Logical Operators in JS
+
+console.log(2 > 3 || 3 > 4);
+console.log(2 > 3 && 3 > 4);
