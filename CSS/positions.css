@@ -1,0 +1,15 @@
+.container {
+  height: 400px;
+  width: 700px;
+  background-color: lavender;
+  position: relative;
+  overflow: scroll;
+}
+.box {
+  height: 100px;
+  width: 200px;
+  background-color: burlywood;
+  position: sticky;
+  top: 50px;
+  margin: 50px;
+}
