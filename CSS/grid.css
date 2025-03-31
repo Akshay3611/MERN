@@ -1,0 +1,10 @@
+.grid_container {
+  height: 250px;
+  width: 750px;
+  padding: 10px;
+  border: 5px saddlebrown solid;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 150px 150px 150px;
+  grid-gap: 10px;
+}
