@@ -9,9 +9,33 @@
   grid-gap: 10px;
 }
 .box_1 {
-  grid-row-start: 2;
-  grid-row-end: 3;
+  /* hard way to do it */
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
+  /* Short way to do above thing*/
+  /* grid-row: 1/3; */
+  /* hard way to do it */
+  /* grid-column-start: 3;
+  grid-column-end: 4; */
+  /* Short way to do above thing*/
+  /* grid-column: 3/4; */
 
-  grid-column-start: 3;
-  grid-column-end: 4;
+  /* Spanning in Grid */
+  grid-column: 1/5;
+}
+.box_2 {
+  /* hard way to do it */
+  /* grid-row-start: 2;
+  grid-row-end: 3; */
+  /* Short way to do above thing*/
+  /* grid-row: 1/3; */
+  /* hard way to do it */
+  /* grid-column-start: 3;
+  grid-column-end: 4; */
+  /* Short way to do above thing*/
+  /* grid-column: 3/4; */
+
+  /* Spanning in Grid */
+  grid-column: 1/3;
+  grid-row: 2/4;
 }
