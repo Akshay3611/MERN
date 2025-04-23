@@ -1,0 +1,16 @@
+.box1 {
+  height: 100px;
+  width: 400px;
+  background-color: brown;
+  border: 5px solid black;
+  padding: 20px;
+}
+
+.box2 {
+  box-sizing: border-box;
+  height: 100px;
+  width: 400px;
+  background-color: plum;
+  border: 5px solid black;
+  padding: 20px;
+}
