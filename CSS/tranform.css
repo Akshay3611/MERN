@@ -1,0 +1,13 @@
+div {
+  height: 100px;
+  width: 300px;
+  background-color: orange;
+  border: 2px solid black;
+}
+.div2 {
+  /* transform: rotate(-30deg);
+  transform: rotate(20deg); */
+  /* transform: scale(0.5, 2); */
+  transform: translate(20px, 50px);
+  transform: skewy(20deg);
+}
