@@ -5,6 +5,13 @@
   border: 5px saddlebrown solid;
   border-radius: 10px;
   display: grid;
-  grid-template-columns: 150px 150px 150px;
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+}
+.box_1 {
+  grid-row-start: 2;
+  grid-row-end: 3;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
 }
