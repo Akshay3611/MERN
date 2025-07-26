@@ -1,4 +1,4 @@
-// Arithmetic Operators in JS
+/* // Arithmetic Operators in JS
 
 // Addition
 console.log(2 + 5);
@@ -45,3 +45,17 @@ console.log(a === b);
 console.log(2 > 3 || 3 > 4);
 console.log(2 > 3 && 3 > 4);
 console.log(!(2 > 3));
+ */
+
+// let and Const in JS
+
+// let and const are block scoped variables in JS
+//let can be reassigned but not redeclared
+let age = 25;
+//const can be neither reassigned nor redeclared
+const name = "Akshay";
+console.log(age, name);
+// reassigning let variable
+age = 26;
+
+console.log(age);
