@@ -1,4 +1,4 @@
-//Data types in JS
+/* //Data types in JS
 
 // Primitive data types in JS
 // 1. Number
@@ -23,3 +23,29 @@ console.log("unique");
 let bigInt = BigInt(1234567890123456789012345678901234567890);
 console.log(bigInt);
 //
+
+
+ */
+
+// Spread and Rest Operators in JS
+
+let arr = [1, 2, 3, 4];
+
+let arr2 = [...arr];
+
+console.log(arr2);
+// Spread operator is used to spread the elements of an array or object
+
+arr2 = [...arr, 5, 6, 7];
+console.log(arr2); // Spread operator can also be used to add new elements to an array
+
+let arr3 = [...arr, ...arr2];
+
+console.log(arr3); // Spread operator can also be used to merge two arrays
+
+// Spread operator can be used to pass elements of an array as arguments to a function
+function sum(x, y, z) {
+  return x + y + z;
+}
+
+console.log(sum(...arr));
